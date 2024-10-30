@@ -1,0 +1,10 @@
+import math
+
+def calcular_raiz_cuadrada(numero):
+  return math.sqrt(numero)
+
+
+numero = int(input("Ingresa el numero: "))
+print("La raiz de" , numero , " es:", calcular_raiz_cuadrada(numero))
+print(f"La raiz de {numero} es: {calcular_raiz_cuadrada(numero)}")
+print("La raiz de {numero} es: {calcular_raiz_cuadrada(numero)}")
